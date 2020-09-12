@@ -14,7 +14,6 @@ form.addEventListener("submit", submission);
 // validator function to check if the input is valid
 function validator(e) {
   e.preventDefault();
-  console.log(email.value);
   // check if the target is the email
   if (emailValidator(email.value)) {
     messageDisplay("email", "valid");
