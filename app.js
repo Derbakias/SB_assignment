@@ -9,7 +9,7 @@ const saved = document.getElementById("stay-in");
 
 // event listeners
 form.addEventListener("keyup", validator);
-form.addEventListener("submit", sumbmition);
+form.addEventListener("submit", submission);
 
 // validator function to check if the input is valid
 function validator(e) {
@@ -56,7 +56,7 @@ function messageDisplay(field, status) {
 }
 
 // form submit when all credentials are valid
-function sumbmition(e) {
+function submission(e) {
   e.preventDefault();
   if (
     emailValidator(email.value) &&
