@@ -172,4 +172,9 @@ input[type="text"] {
   .container {
     width: 100%;
   }
+
+  .error {
+    margin-left: 5px;
+    font-size: 12px;
+  }
 }
